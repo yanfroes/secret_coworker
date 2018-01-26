@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 20180126163957) do
   end
 
   create_table "members", force: :cascade do |t|
+    t.string   "area"
     t.string   "name"
     t.string   "email"
     t.integer  "campaign_id"
