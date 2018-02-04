@@ -6,24 +6,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= favicon_link_tag %>
   </head>
 
-  <body background="/assets/parallax1.jpg">
-
-    <header>
-      <%= render "shared/navbar" %>
-    </header>
-
-    <main>
-      <div class="container">
-        <%= yield %>
-      </div>
-    </main>
-
-    <footer>
-      <%= render "shared/footer" %>
-    </footer>
-
+  <body>
+    <%= yield %>
   </body>
 </html>
