@@ -33,4 +33,4 @@ $(document).on 'turbolinks:load', ->
           Materialize.toast('Tudo certo, em breve os participantes receberão um email!', 4000, 'green')
         error: (jqXHR, textStatus, errorThrown) ->
           Materialize.toast(jqXHR.responseText, 4000, 'red')
-return false
+    return false
