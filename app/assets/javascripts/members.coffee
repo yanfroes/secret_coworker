@@ -58,4 +58,4 @@ insert_member = (id, name, email) ->
           '</a>' +
         '</div>' +
       '</div>' +
-'</div>')
+    '</div>')
