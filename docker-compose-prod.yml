@@ -58,4 +58,4 @@ services:
 volumes:
   redis:
   postgres:
-box:
+  box:
